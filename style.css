@@ -1,0 +1,842 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+/*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}*/
+
+body
+{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    background-color: #001025 
+}
+
+.header
+{
+    background-image: url(/Assets/Image\ Background.png), url(/Assets/Lighitng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 1000px;
+    height: 100vh;
+    border: none;
+    display: flow-root;
+}
+.container
+{
+    max-width: 1808px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.headerTitle
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 976px;
+    max-height: 234px;
+    padding-top: 165px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 1.21;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.headerText
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 576px;
+    max-height: 54px;
+    padding-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.headerButton{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 16px 64px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 159px;
+    max-height: 27px;
+    border-radius: 16px;
+    background: linear-gradient(#06A7F1,#006BA7)
+}
+
+.sectionName{
+    font-size: 14px;
+    color: #44C5FF;
+    font-weight: 300;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px;
+    padding-top: 80px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+
+}
+.sectionTitle{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px;
+
+}
+.sectionText{
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #989898;
+    max-width: 832px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    max-width: 1696px;
+}
+
+.skillsItem{
+    padding-top: 60.5px;
+    padding-bottom: 60.5px;
+    background-color: #00172D;
+    max-width: 400px;
+    max-height: 290px;
+    border-radius: 22px;
+}
+
+.skillsImgConf{
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-top: 8px;
+    margin-bottom: 14px;
+    margin-left: 136px;
+    margin-right: 136px;
+}
+
+.skillsImg{
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    margin-bottom: 14px;
+    margin-left: 136px;
+    margin-right: 136px;
+}
+
+
+.skillsText{
+    margin: 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #44C5FF;
+}
+
+.hiddenText{
+    display: none;
+}
+
+.section2{
+    background-color: #00172D;
+    height: 251px;
+}
+
+.section2Name{
+    font-size: 18px;
+    margin-top: 124px;
+    padding-top: 64px;
+    margin-bottom: 10px;
+}
+
+.section2Title{
+    max-width: 1408px;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section3Name{
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 0px;
+}
+
+.section3Title{
+    text-align: left;
+
+}
+
+.section3Text{
+    margin-top: 24px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.section3Container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 162px;
+    max-width: 1407px;
+    max-height: 456px;
+}
+
+.firstHalf{
+    max-width: 703.5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.secondHalf{
+    max-width: 703.5px;
+}
+
+.secondHalfItem{
+    display: flex;
+    padding-bottom: 0px;
+    background-color: #00172D;
+    max-width: 687.5px;
+    min-height: 96px;
+    border-radius: 9999px;
+    margin-bottom: 24px;
+    max-height: 96px;
+    padding-top: 14px;
+    box-sizing: border-box;
+    padding-left: 14px;
+}
+
+.secondHalfItemImg{
+    padding-left: 4px;
+    padding-top: 4px;
+    margin: 14px;
+}
+.itemBg{
+    background-color: #02213A;
+    border-radius: 9999px;
+    object-fit: contain;
+    max-width: 64px;
+    max-height: 64px;
+    min-width: 64px;
+    min-height: 64px;
+}
+
+.imgBooks{
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: 14px;
+}
+
+.imgPeople{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: 14px;
+}
+
+.secondHalfTitle{
+    margin: 0.5px;
+    margin-left: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #44C5FF;
+}
+
+.secondHalfText{
+    margin: 8px;
+    margin-left: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+
+}
+
+.fromTheFaunder{
+    background-color: #00172D;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+}
+
+.mansImg{
+    flex-shrink: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 48px;
+    margin-right: 32px;
+    border-radius: 40px;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.discriptionSize{
+    max-width: 880px;
+    max-height: 243px;
+    margin-top: 79px;
+}
+
+.section4Name{
+    text-align: left;
+    padding-top: 0px;
+}
+
+.section4Title{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.section4Text{
+    text-align: left;
+    margin: 0px;
+}
+
+.section5Container{
+    max-width: 1408px;
+    max-height: 939px;
+}
+
+.section5Name{
+    padding-top: 0px;
+    margin-top: 80px;
+}
+
+.oneStepBlock{
+    margin-top: 32px;
+    display: flex;
+    max-width: 1408px;
+    max-height: 192px;
+}
+
+.stepDescription{
+    background-color: #00172D;
+    display: flex;
+    border-radius: 16px;
+    max-width: 1120px;
+    max-height: 192px;
+}
+
+.stepNumber{
+    margin: -35px;
+    margin-left: 0px;
+    font-weight: 800;
+    font-size: 256px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #02213A;
+}
+
+.stepImg{
+    margin-top: 32px;
+    margin-left: 32px;
+    width: 113.77777862548828px;
+    height: 113.77777862548828px;
+    padding-top: 7.11px;
+    padding-left: 7.11px;
+    padding-bottom: 7.11px;
+    padding-right: 7.11px;
+    opacity: 1;
+
+}
+
+.stepFonts{
+    margin-left: 24px;
+    margin-top: 46px;
+    margin-right: 186.5px;
+    max-width: 575.5px;
+    height: 100px;
+}
+
+.stepName{
+    margin: 0px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #989898;
+}
+
+.stepTitle{
+    margin: 0px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #44C5FF;
+}
+
+.stepText{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.arrowRight{
+    width: 262.9px;
+    height: 112.42px;
+    margin-left: 26.5px;
+    margin-top: 41.62px;
+}
+
+.arrowLeft{
+    width: 262.9px;
+    height: 112.42px;
+    margin-right: 26.5px;
+    margin-top: 41.62px;
+}
+
+.oneStepMargin{
+    margin-top: 24px;
+}
+
+.section6Name{
+    padding-top: 0px;
+    margin-top: 160px;
+}
+
+.tiersList{
+    display: flex;
+    overflow-x: auto;
+}
+
+.tiersBlock{
+    max-width: 400px;
+    max-height: 527px;
+    background-color: #00172D;
+    border-radius: 16px;
+    margin-right: 32px;
+}
+
+.tiersName{
+    display: flex;
+    margin-left: 32px;
+    padding-top: 32px;
+}
+
+.tiersTitle{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #44C5FF;
+}
+
+.tiersLevel{
+    margin: 0px;
+    margin-top: 11px;
+    margin-left: 142px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.tiers2Level{
+    margin-left: 193px;
+}
+
+.tiers3Level{
+    margin-left: 211px;
+}
+
+.tiers4Level{
+    margin-left: 195px;
+}
+
+.tiersVariants{
+    margin-left: 32px;
+    margin-top: 24px;
+    max-height: 312px;
+    max-width: 336px;
+    margin-bottom: 24px;
+}
+
+.oneTier{
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    margin: 0px;
+    gap: 4px;
+    line-height: 31.2px;
+}
+
+.tiersSubscribe{
+    width: 336px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #989898;
+}
+
+.pdfBlock{
+    max-width: 832px;
+    max-height: 226px;
+    background-color: #00172D;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 160px;
+    margin-bottom: 176px;
+    text-align: center;
+}
+
+.section7Title{
+    padding-top: 32px;
+}
+
+.section7Text{
+    margin-top: 16px;
+    margin-bottom: 32px;    
+}
+
+.pdfDownload{
+    display: inline-block;
+    padding: 16px 40px;
+    background: linear-gradient(#06A7F1,#006BA7);
+    border-radius: 16px;
+}
+/**{
+    outline: 1px solid red !important;
+}*/
+
+@media (max-width: 640px){
+    .headerTitle{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .headerText{
+        font-size: 16px;
+    }
+    .header{
+        min-height: 600px;
+    }
+
+    .skills{
+        gap: 10px;
+    }
+
+    .skillsItem{
+        padding: 0px;
+        width: 165px;
+        height: 204px;
+    }
+    .skillsImgConf{
+        width: 72px;
+        height: 84px;
+        padding-left: 12px;
+        padding-bottom: 6px;
+        padding-right: 12px;
+        padding-top: 6px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-left: 34.5px;
+        margin-right: 34.5px;
+    }
+
+    .skillsImg{
+        width: 72px;
+        height: 72px;
+        padding-left: 12px;
+        padding-bottom: 12px;
+        padding-right: 12px;
+        padding-top: 12px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-left: 34.5px;
+        margin-right: 34.5px;
+    }
+    .skillsText{
+        margin-bottom: 4px;
+    }
+    .hiddenText{
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        max-width: 149px;
+        max-height: 57px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container2{
+        background-color: #00172D;
+    }
+
+    .section2Name{
+        font-size: 14px;
+        margin-top: 104px;
+        padding-top: 24px;
+        margin-bottom: 8px;
+    }
+
+    .section2Title{
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .section3Container{
+        max-height: 666px;
+        margin-top: 80px;
+        margin-left: 8px;
+    }
+
+    .section3Name{
+        text-align: center;
+    }
+    .section3Title{
+        text-align: center;
+        font-size: 24px;
+    }
+    .section3Text{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .secondHalfItem{
+        width: 340px;
+        height: 91px;
+        margin-bottom: 10px;
+        padding-top: 9.5px;
+        padding-left: 8px;
+    }
+
+    .secondHalfTitle{
+        margin-left: 8px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .secondHalfText{
+        margin-top: 4px;
+        margin-left: 8px;
+    }
+  
+    .itemBg{
+        margin-top: 5px;
+    }
+
+    .fromTheFaunder{
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .mansImg{
+        margin-top: 16px;
+        margin-left: 27.5px;
+        margin-right: 27.5px;
+        margin-bottom: 8px;
+    }
+
+    .section4Name{
+        text-align: center;
+    }
+
+    .section4Text{
+        text-align: center;
+        font-size: 16px;
+    }
+    .section4Title{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .discriptionSize{
+        margin-top: 10px;
+        max-height: 292px;
+    }
+    .section5Container{
+    max-width: 340px;
+    max-height: 653px;
+    }
+    .section5Title{
+        font-size: 24px;
+    }
+    .stepDescription{
+    max-width: 340px;
+    height: 153px;
+    }
+    .arrowLeft{
+        display: none;
+    }
+    .arrowRight{
+        display: none;
+    }
+    .stepImg{
+        width: 64px;
+        height: 64px;
+        padding-left: 8px;
+        padding-top: 8px;
+        margin-left: 8px;
+        margin-top: 40.5px;
+    }
+    .stepFonts{
+        margin: 0px;
+        margin-top: 8px;      
+    }
+    .stepNumber{
+        display: none;
+    }
+    .stepName{
+        margin-bottom: 8px;
+    }
+    .stepTitle{
+        margin-bottom: 4px;
+    }
+   
+    .oneStepBlock{
+    margin-top: 12px;
+    }
+    .oneStepMargin{
+        margin-top: 8px;
+    }
+    .pdfBlock{
+        max-width: 340px;
+        max-height: 226px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .section7Title{
+        padding-top: 8px;
+    }
+
+    .section7Text{
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 8px;    
+    }
+
+    .pdfDownload{
+        margin-bottom: 16px;
+    }
+
+    .tiersBlock{
+    max-width: 300px;
+    height: 491px;
+    background-color: #00172D;
+    border-radius: 16px;
+    margin-right: 10px;
+    }
+
+    .tiersName{
+        display: flex;
+        margin-left: 8px;
+        padding-top: 8px;
+    }
+
+    .tiersTitle{
+        font-size: 24px;
+    }
+
+    .tiersLevel{
+        margin: 0px;
+        margin-top: 5.5px;
+        margin-left: 124px;
+
+    }
+
+    .tiers2Level{
+        margin-left: 162px;
+    }
+
+    .tiers3Level{
+        margin-left: 175px;
+    }
+
+    .tiers4Level{
+        margin-left: 164px;
+    }
+
+    .tiersVariants{
+        margin-left: 8px;
+        margin-top: 8px;
+        margin-right: 8px;
+        max-height: 372px;
+        max-width: 491px;
+        margin-bottom: 8px;
+    }
+
+    .oneTier{
+        display: flex;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0%;
+        margin: 0px;
+
+        gap: 4.25px;
+        line-height: 28.4px;
+    }
+
+    .tiersSubscribe{
+        width: 284px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #989898;
+    }
+}
