@@ -2,6 +2,9 @@
 
 html{
     box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -453,13 +456,20 @@ body
     margin-top: 160px;
 }
 
+
 .tiersList{
-    display: flex;
-    overflow-x: auto;
-    justify-content: center;
+    display: flex !important;
+    flex-direction: row !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    justify-content: flex-start;
 }
 
 .tiersBlock{
+    flex: 0 0 80vw;
+    scroll-snap-align: center;
+    margin: 0;
     max-width: 400px;
     max-height: 527px;
     background-color: #00172D;
@@ -798,11 +808,11 @@ body
     }
 
     .tiersBlock{
-    max-width: 300px;
-    height: 491px;
-    background-color: #00172D;
-    border-radius: 16px;
-    margin-right: 10px;
+        max-width: 300px;
+        height: 491px;
+        background-color: #00172D;
+        border-radius: 16px;
+        margin-right: 10px;
     }
 
     .tiersName{
