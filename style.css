@@ -358,12 +358,12 @@ body
     display: flex;
     border-radius: 16px;
     max-width: 1120px;
-    max-height: 192px;
+    height: 192px;
+    width: 100%;
 }
 
 .stepNumber{
     margin: -35px;
-    margin-left: 0px;
     font-weight: 800;
     font-size: 256px;
     line-height: 100%;
@@ -387,9 +387,10 @@ body
 .stepFonts{
     margin-left: 24px;
     margin-top: 46px;
-    margin-right: 186.5px;
+    margin-right: 221px;
     max-width: 575.5px;
     height: 100px;
+    width: 100%;
 }
 
 .stepName{
@@ -446,6 +447,7 @@ body
 .tiersList{
     display: flex;
     overflow-x: auto;
+    justify-content: center;
 }
 
 .tiersBlock{
@@ -454,6 +456,8 @@ body
     background-color: #00172D;
     border-radius: 16px;
     margin-right: 32px;
+    width: 100%;
+    height: 100%;
 }
 
 .tiersName{
@@ -498,6 +502,7 @@ body
 
 .tiersVariants{
     margin-left: 32px;
+    margin-right: 32px;
     margin-top: 24px;
     max-height: 312px;
     max-width: 336px;
