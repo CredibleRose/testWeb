@@ -462,7 +462,7 @@ body
     flex-direction: row !important;
     overflow-x: auto !important;
     scroll-snap-type: x mandatory;
-    gap: 20px;
+    gap: 10px;
     justify-content: flex-start;
 }
 
